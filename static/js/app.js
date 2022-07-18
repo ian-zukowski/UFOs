@@ -59,8 +59,9 @@ function updateFilters() {
     // 8. Set the filtered data to the tableData.
     let filteredData = tableData;
   
-    // 9. Loop through all of the filters and keep any data that
-    // matches the filter values
+    // 9. Loop through all of the filters and keep any data that matches the filter values
+    // use object.entries so it looks at the full entry of the 'filters' dictionary
+    // use forEach([key,val]) so it grabs *both* items from the dictionary
     Object.entries(filters).forEach(([key,val]) => {
       filteredData = filteredData.filter(row => row[key] === val);
     });
