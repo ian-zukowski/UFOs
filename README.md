@@ -13,6 +13,8 @@ An aspiring UFO-ologist is designing a website to display data surrounding past 
 
 This webpage is quite user-friendly to operate, but may require some additional instructions. To operate the search function on the table, all a user needs to do is input a specific value into the corresponding input box for one of the following columns in the table: Date, City, State, Country, Shape. The input *needs to be an exact match* to the text as written in the table. As such, it may be prudent to add a disclaimer near the search function to alleviate some user frustration on why capitalized searches, or dates with "0's" result in a blank table. See Fig1 and Fig2 for visual examples of these potential frustration points.
 
+-------------------------------------------------------------
+
 **FIG 1**
 ![ian-zukowski](static/images/Fig1.png)
 *A user enters the location El Cajon, CA using lower-case letters vs. upper-case letters.*
