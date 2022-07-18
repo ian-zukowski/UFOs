@@ -15,12 +15,15 @@ This webpage is quite user-friendly to operate, but may require some additional 
 
 **FIG 1**
 ![ian-zukowski](static/images/Fig1.png)
-A user enters the location El Cajon, CA using lower-case letters vs. upper-case letters.
+*A user enters the location El Cajon, CA using lower-case letters vs. upper-case letters.*
+
+-------------------------------------------------------------
 
 **FIG 2**
 ![ian-zukowski](static/images/Fig2.png)
-A user searches for January 4th, 2010 with '1/4/2010' and '01/04/2010'.
+*A user searches for January 4th, 2010 with '1/4/2010' and '01/04/2010'.*
 
+-------------------------------------------------------------
 
 ### Behind The Scenes
 Behind the scenes the program performs the following steps:
